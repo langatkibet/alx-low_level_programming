@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*First Function*/
-/**
+/*
  * Print out a statement
  */
 int main(void)
