@@ -2,7 +2,7 @@
 
 /**
  * main - main function
- * Return: end program
+ * Return: when process is successful
  */
 
 int main(void)
@@ -12,5 +12,5 @@ int main(void)
 
 	fprintf(stderr, "%s\n", n);
 
-	return (0);
+	return (1);
 }
