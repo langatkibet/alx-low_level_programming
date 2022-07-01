@@ -10,7 +10,7 @@ int main(void)
 {
 	int base;
 
-	for (base = 1; base = 10; base++)
+	for (base = 1; base <= 9; base++)
 	{
 		printf("%d \n", base);
 	}
