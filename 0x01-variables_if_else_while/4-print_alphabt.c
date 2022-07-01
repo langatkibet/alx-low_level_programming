@@ -10,11 +10,11 @@ int main(void)
 {
 	char kenyor;
 
-	for (kenyor = 'a'; kenyor = 'z'; kenyor++)
+	for (kenyor = 'a'; kenyor <= 'z'; kenyor++)
 	{
-		if (kenyor != q && kenyor != e)
+		if (kenyor != 'q' && kenyor != 'e')
 			putchar(kenyor);
 	}
-	putchar('\n';)
+	putchar('\n');
 	return (0);
 }
