@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -9,9 +8,9 @@
 
 int main(void)
 {
-	char j;
+	char jaa;
 
-	for (j = "a"; j = "z"; j++)
+	for (jaa = "a"; jaa <= "z"; jaa++)
 	{
 		putchar(j);
 	putchar('\n')
