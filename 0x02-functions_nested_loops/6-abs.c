@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
+ * _abs - Absolute value of n.
  *
- * _abs(int)- Absolute value
+ * @n: int
  *
- *Return: 0 Success
+ * Return: 0 Success
  */
 
 int _abs(int n)
