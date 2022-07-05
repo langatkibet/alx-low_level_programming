@@ -1,15 +1,34 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print alphabet ten times
- * Return : void
+ * jack_bauer - time
+ *
+ * Return: Void
+ *
  */
 
-void print_alphabet_x10(void)
+void jack_bauer(void)
 {
-	int yell;
+	int i, j, k, l;
 
-	for (yell = '00:00'; yell <= '23:59'; yell++)
-		_putchar(yell);
-	_putchar('\n');
+	for (i = '0'; i <= '2'; i++)
+	{
+		for (j = '0'; j <= '9'; j++)
+		{
+			if i == '2' && j == '4')
+				break;
+			for (k = '0'; k <= '5'; k++)
+			{
+				for (l = '0'; l <= '9'; l++)
+				{
+					_putchar(i);
+					_putchar(j);
+					_putchar(':');
+					_putchar(k);
+					_putchar(l);
+					_putchar('\n');
+				}
+			}
+		}
+	}
 }
