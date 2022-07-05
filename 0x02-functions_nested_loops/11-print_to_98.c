@@ -1,4 +1,5 @@
-#incude "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - ouputs al nos up tom98
